@@ -8,37 +8,37 @@ class PublicController extends Controller
 {
     public function index()
     {
-         return view('index');
+         return view('public.index');
      }
 
      public function about()
      {
-          return view('about');
+          return view('public.about');
       }
 
       public function category()
       {
-           return view('category');
+           return view('public.category');
        }
 
        public function contact()
        {
-            return view('contact');
+            return view('public.contact');
         }
  
         public function jobDetails()
         {
-             return view('job-detail');
+             return view('public.job-detail');
          }
   
          public function jobList()
          {
-              return view('job-list');
+              return view('public.job-list');
           }
 
             public function testimonial()
             {
-                 return view('testimonial');
+                 return view('public.testimonial');
              }
 
 
